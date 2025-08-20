@@ -1,0 +1,53 @@
+# ✅ 1. Delete any existing broken virtual environment
+# In your project root directory:
+
+# On Windows CMD:
+rmdir /s /q venv
+
+# On PowerShell or Git Bash:
+rm -rf venv
+
+
+# ✅ 2. Create a fresh virtual environment
+python -m venv venv
+
+
+# ✅ 3. Activate the virtual environment
+
+# On Windows CMD:
+venv\Scripts\activate
+
+# On PowerShell:
+.\venv\Scripts\activate
+
+# On Git Bash:
+source venv/Scripts/activate
+
+
+# ✅ 4. Install project dependencies
+pip install django djangorestframework drf-yasg
+
+
+# ✅ 5. (Optional) Save the installed packages to requirements.txt
+pip freeze > requirements.txt
+
+
+# ✅ 6. Confirm Django is installed
+python
+>>> import django
+>>> django.get_version()
+>>> exit()
+
+
+# ✅ 7. In VS Code:
+# Ctrl+Shift+P → Python: Select Interpreter
+# Choose: {your_project_root}/venv/Scripts/python.exe
+
+
+# ✅ 8. (Optional) Run initial migrations if needed
+python manage.py makemigrations
+python manage.py migrate
+
+
+# ✅ 9. Run development server
+python manage.py runserver

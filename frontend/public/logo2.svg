@@ -1,0 +1,6 @@
+<svg width="260" height="60" viewBox="0 0 260 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="30,5 55,20 55,45 30,60 5,45 5,20" fill="#4B0082" stroke="#4B0082" stroke-width="2"></polygon>
+  <circle cx="30" cy="33" r="6" fill="#FF6F61"></circle>
+  <text x="70" y="38" font-family="Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#4B0082">Event</text>
+  <text x="155" y="38" font-family="Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#FF6F61">Hive</text>
+</svg>

@@ -1,0 +1,44 @@
+/* Navbar.css - modern EventHive styling */
+.custom-navbar {
+  background: #0d47a1; /* Deep royal blue */
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.brand-logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff !important;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.brand-logo:hover {
+  color: #fdd835 !important; /* Yellow accent on hover */
+}
+
+.custom-nav-link {
+  color: #e3f2fd !important; /* Light blue text */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.custom-nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff !important;
+}
+
+.logout-btn {
+  padding: 0.4rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ffffff;
+  color: #0d47a1;
+  border-color: #ffffff;
+}
