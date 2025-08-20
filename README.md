@@ -98,7 +98,7 @@ NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api
 
 ## 📌 Roadmap  
 
-- [ ] Online Payments (Stripe/PayPal)  
+- [ ] Online Payments (paystack)  
 - [ ] Google/Outlook Calendar Sync  
 - [ ] Multi-language Support  
 - [ ] Email & SMS Notifications  
